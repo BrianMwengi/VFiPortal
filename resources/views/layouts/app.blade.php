@@ -14,8 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-    <script src="{{ asset('js/scripts.js') }}" defer></script>
+    <script src="{{ secure_asset('js/app.js') }}" defer></script>
+    <script src="{{ secure_asset('js/scripts.js') }}" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
     <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
@@ -24,8 +24,8 @@
 
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ secure_asset('css/style.css')}}">
 </head>
 <body>
     <div id="app">
